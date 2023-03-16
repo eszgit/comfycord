@@ -20,14 +20,14 @@
 */
 
 /* ═══════『 🚫 ・ No scrollbars 』- Comment the line below if you want the scrollbar back */
-@import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css";
+/* @import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css"; */
 
 /* ═══════『 🎵 ・ Better SpotifyControls seek bar 』- Comment the line below if you want the scrollbar back */
 @import "https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css";
 
 :root {
   /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
-  --disable-animations: 2s channel-unread infinite;
+ /* --disable-animations: 2s channel-unread infinite; */
 
   /* ═══════『 ⚙️ / 🎤 / 🎧 ・ User button 』═══════
 *
@@ -38,7 +38,7 @@
 */
 
   /* Spacing - Default value : 8px */
-  --user-buttons-spacing: 8px;
+  --user-buttons-spacing: 4px;
 
   /* Color - Default value : #096DC0 */
   --user-buttons-color: #096dc0;
@@ -51,18 +51,18 @@
 */
 
   /* Avatars - Default value : 5px */
-  --avatar-radius: 5px;
+  --avatar-radius: 100px;
 
   /* Status - Default value : 3px */
-  --status-radius: 3px;
+  --status-radius: 100px;
 
   /* Servers - Default value : 8px */
-  --server-radius: 8px;
+  --server-radius: 100px;
 
   /* ═══════『 😃 Colored emoji picker 』═══════
 *   Change the value to "100%" if you want the default one */
 
-  --colored-emoji: grayscale(0%);
+  --colored-emoji: grayscale(100%);
 
   /* ═══════『 📜 Server/channel list 』═══════ */
 
